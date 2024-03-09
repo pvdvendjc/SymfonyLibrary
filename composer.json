@@ -1,0 +1,21 @@
+{
+  "name": "djc/symfony-lib",
+  "description": "Common library for symfony projects",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "pieter",
+      "email": "pieter@dj-consultancy.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Djc\\Symfony\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "stof/doctrine-extensions-bundle": "^1.11"
+  }
+}
